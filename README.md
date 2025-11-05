@@ -67,8 +67,11 @@ flutterfire configure
 ### 4. Run the App
 
 ```bash
-# For iOS
+# For iOS/Mac
 flutter run -d ios
+
+#For Chrome
+flutter run -d chrome
 
 # For Android
 flutter run -d android
@@ -162,7 +165,7 @@ See [`sample_data.md`](sample_data.md) for sample positive messages to add to yo
 
 - ✅ iOS and MacOS
 - ✅ Android
-- ✅ Web (partial support)
+- ✅ Web
 
 ## 🐛 Troubleshooting
 
