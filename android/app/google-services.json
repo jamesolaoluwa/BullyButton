@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870506918671",
+    "project_id": "bullybutton",
+    "storage_bucket": "bullybutton.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870506918671:android:fd20f294ddd925d0fd447a",
+        "android_client_info": {
+          "package_name": "com.bullybutton.bullybutton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Dcq1VKqFBvbMTRR3K7dcriEDKbf8dv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

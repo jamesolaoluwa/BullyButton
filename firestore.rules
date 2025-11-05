@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Reports collection - anonymous writes only
+    match /reports/{reportId} {
+      // Allow anyone to create a report (anonymous auth)
+      allow create: if request.auth != null;
+      // Only allow reads by admins (you can add admin check later)
+      allow read: if false; // Keep reports private for now
+      allow update, delete: if false;
+    }
+    
+    // Messages collection - public reads, authenticated writes
+    match /messages/{messageId} {
+      // Anyone can read messages
+      allow read: if true;
+      // Anyone authenticated can create a message
+      allow create: if request.auth != null
+                    && request.resource.data.keys().hasAll(['message', 'author', 'timestamp', 'likes'])
+                    && request.resource.data.message is string
+                    && request.resource.data.message.size() > 0
+                    && request.resource.data.message.size() <= 500;
+      // Only allow updating likes (no other fields)
+      allow update: if request.auth != null
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likes'])
+                    && request.resource.data.likes is int;
+      // No deletes for regular users
+      allow delete: if false;
+    }
+  }
+}
+

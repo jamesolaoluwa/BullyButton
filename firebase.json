@@ -1,0 +1,26 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "ios": {
+        "default": {
+          "projectId": "bullybutton",
+          "appId": "1:870506918671:ios:f33d5aa1bf3be4f4fd447a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bullybutton",
+          "configurations": {
+            "ios": "1:870506918671:ios:f33d5aa1bf3be4f4fd447a"
+          }
+        }
+      }
+    }
+  }
+}
