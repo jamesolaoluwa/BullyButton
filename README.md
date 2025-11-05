@@ -1,6 +1,6 @@
 # BullyButton - Anti-Bullying Flutter App
 
-A beautiful, modern Flutter mobile app with glassmorphism UI that promotes anti-bullying awareness and prevention. Built with Firebase backend, featuring anonymous reporting, positive messages feed, and comprehensive support resources.
+BullyButton is an app that promotes anti-bullying awareness and prevention. Built with a Dart frontend, Firebase backend, featuring anonymous reporting, positive messages feed, and comprehensive support resources.
 
 ## ✨ Features
 
