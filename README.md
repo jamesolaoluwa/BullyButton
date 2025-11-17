@@ -34,7 +34,7 @@ The app features a beautiful glassmorphism design with:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd BullyButtonV2
 ```
 
