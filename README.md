@@ -189,15 +189,15 @@ flutter run
 
 This project is created for educational and anti-bullying awareness purposes.
 
-## 🤝 Contributing
+## 🤝🏾 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. I'll be sure to give a review 
 
 ## 📧 Support
 
 For issues or questions, please open an issue on GitHub.
 
-## 🙏 Acknowledgments
+## 🙏🏾 Acknowledgments
 
 Built with care to promote anti-bullying awareness and create a safe, supportive community.
 
